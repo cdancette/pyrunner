@@ -39,7 +39,7 @@ For example
 pyrunner .tokens/ touch file.txt
 ```
 
-Will create a file call file.txt.
+Will create a file called file.txt.
 
 Another example : 
 
