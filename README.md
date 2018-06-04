@@ -18,7 +18,7 @@ You can use pyrunner to run the your tasks, and then the second run will only st
 unfinished tasks.
 
 It can also be used as a poor man's parallel library.
-Instead of ``ls | xargs -P 2 -I % command %` you can run `ls | xargs -I % pyrunner %/.tokens command %` in two shells. 
+Instead of `ls | xargs -P 2 -I % command %` you can run `ls | xargs -I % pyrunner %/.tokens command %` in two shells.
 Each shell will pick up the pending tasks.
 
 ## Installation
