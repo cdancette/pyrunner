@@ -109,8 +109,9 @@ class ConsoleTask(Task):
 
 def console():
     parser = argparse.ArgumentParser()
-    parser.add_argument("experiment_folder")
-    parser.add_argument("command", nargs=argparse.REMAINDER)
+    parser.add_argument("experiment_folder",
+                        help="Path where the token files will be saved")
+    parser.add_argument("command", nargs=argparse.REMAINDER, help="Command to run")
     args = parser.parse_args()
 
     task = ConsoleTask(
